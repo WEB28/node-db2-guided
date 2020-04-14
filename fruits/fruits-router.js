@@ -1,6 +1,7 @@
 const express = require('express');
 const knex = require('knex');
 
+// configures the connection to the database
 const db = knex({
   client: 'sqlite3',
   connection: {
